@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 },
                 cluster: true,
                 clusterMaxZoom: 5,
-                clusterRadius: 10
+                clusterRadius: 50
             });
 
             // Add cluster layers
