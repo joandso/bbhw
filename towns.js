@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
  // 9. Initialize Mapbox map with geocoding and hotel markers
+    mapboxgl.accessToken = MAPBOX_ACCESS_TOKEN; // Make sure the token is set
 
     if (window.hotelFeatures && window.hotelFeatures.length > 0) {
         const map = new mapboxgl.Map({
