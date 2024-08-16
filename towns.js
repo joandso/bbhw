@@ -86,8 +86,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     features: window.hotelFeatures
                 },
                 cluster: true,
-                clusterMaxZoom: 15,
-                clusterRadius: 5
+                clusterMaxZoom: 20,
+                clusterRadius: 50
             });
 
             // Add cluster layers
